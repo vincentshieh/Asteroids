@@ -21,6 +21,11 @@
 <script src="lib/powerup.js"></script>
 <script src="lib/healthkit.js"></script>
 <script>
+  window.addEventListener("keydown", function(e) {
+    if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+      e.preventDefault();
+    }
+  }, false);
   var canvasEl = document.getElementById("game-canvas");
   var ctx = canvasEl.getContext('2d');
   var gv = new Asteroids.GameView(ctx);
