@@ -6,7 +6,7 @@
 
 ## How to play
 
-* Bullet Navigate your ship using the arrow keys.
-* Bullet Fire plasma spheres using the space bar.
-* Bullet Collect healthkits to increase life.
-* Bullet Collect powerups to shoot radially.
+* Navigate your ship using the arrow keys.
+* Fire plasma spheres using the space bar.
+* Collect healthkits to increase life.
+* Collect powerups to shoot radially.
