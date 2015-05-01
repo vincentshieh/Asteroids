@@ -1,5 +1,7 @@
 # Asteroids
 
+Asteroids is an arcade space shooter built using JavaScript and HTML5 Canvas. Its functionality is modeled on the 1979 game released by Atari.
+
 Play game at: [http://vincentshieh.github.io/Asteroids][url]
 
 [url]: http://vincentshieh.github.io/Asteroids
