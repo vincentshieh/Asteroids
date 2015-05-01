@@ -1,6 +1,6 @@
 # Asteroids
 
-[Play now][url]
+Play game at: [http://vincentshieh.github.io/Asteroids][url]
 
 [url]: http://vincentshieh.github.io/Asteroids
 
