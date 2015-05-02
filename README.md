@@ -12,3 +12,13 @@ Play the game live at: [http://vincentshieh.github.io/Asteroids][url]
 * Fire plasma spheres using the space bar.
 * Collect healthkits to increase life.
 * Collect powerups to shoot radially.
+
+## Code Highlights
+* The MovingObject class determines whether two objects have collided with each other by checking if the distance between their centers is less than the sum of their radii:
+```javascript
+MovingObject.prototype.isCollidedWith = function (otherObject) {
+  var sumOfRadii = this.radius + otherObject.radius;
+  var distanceBetweenObjs = Asteroids.Util.distance(this.pos, otherObject.pos);
+  return distanceBetweenObjs < sumOfRadii;
+};
+```
